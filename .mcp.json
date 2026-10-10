@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "prompt-vault-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/dafeiai918/prompt-vault-mcp",
+        "prompt-vault-mcp"
+      ]
+    }
+  }
+}

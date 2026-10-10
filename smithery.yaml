@@ -1,0 +1,7 @@
+name: prompt-vault-mcp
+description: 提示词库 MCP：搜索 / 取用 / 变量填充 / 保存提示词模板
+categories:
+  - tools
+  - productivity
+license: MIT
+repository: https://github.com/dafeiai918/prompt-vault-mcp

@@ -1,0 +1,21 @@
+[project]
+name = "prompt-vault-mcp"
+version = "1.0.0"
+description = "提示词库 MCP：搜索 / 取用 / 变量填充 / 保存提示词模板"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+prompt-vault-mcp = "prompt_vault_mcp:main"
+
+[project.urls]
+Homepage = "https://github.com/dafeiai918/prompt-vault-mcp"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = ["prompt_vault_mcp.py"]
